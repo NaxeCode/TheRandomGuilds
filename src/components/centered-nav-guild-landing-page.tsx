@@ -26,7 +26,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			description:
 				"Cat is One of the host and founders for T.R.G. She's the definition of Chaotic, Energenic, enthusiastic, and A mood swing between Cool and Childish/Playful. Her main responsibility is unknown, but she holds a heavy resposibility for Editing, Sosial Media and Visual Ideas.",
 			image: cat,
-			color: 'text-red-400',
+			color: 'text-green-300',
 		},
 		{
 			name: 'Matt',
@@ -34,7 +34,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			description:
 				'Matthew is one of the founders of The Random Guild, he\'s main appearance is mostly Red wearing a sweater. He\'s known for the content Research for the Podcast/Gaming. He has great skills behind the wheel in Racing Games and has an encyclopedia about Motorsports. Sarcastic, Friendly, Charming, and known to say "Oh For God Sake". In our Videos.',
 			image: matt,
-			color: 'text-orange-400',
+			color: 'text-red-600',
 		},
 		{
 			name: 'Caleb',
@@ -42,7 +42,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			description:
 				"Caleb is one of the founders of The Random guild and he is one of the host. He's a wheelchair guy, and He's a chill introverted guy. He is in charge of history and gaming and he like to research about animals and nature also history and a geek towards dinos. He is currently learning many languages and hes known by saying jurassic park quotes. And held resposibility to write subtitles and warms his bud's hearts.",
 			image: caleb,
-			color: 'text-yellow-400',
+			color: 'text-purple-600',
 		},
 		{
 			name: 'Chatherline',
@@ -50,7 +50,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			description:
 				"Chatherline is one of the cast for T.R.G. She's responsible for assisting research with Matthew and presenting/reposting news. She's sarcastic and usually doesn't take things seriously. She's a fun, extroverted person and always has confidence as her personality.",
 			image: chatherline,
-			color: 'text-green-400',
+			color: 'text-blue-300',
 		},
 		{
 			name: 'Edward',
@@ -58,7 +58,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			description:
 				"Edward is one of cast for the T.R.G. and the oldest one too. Responsible for assisting the script and keep most of each section well organized. This is why he's held parts of responsibility in the research room. He's quite formal, straight forward and calm. Yet he's kindhearted and sweet, as he prefers to show it throughout his act..",
 			image: edward,
-			color: 'text-blue-400',
+			color: 'text-blue-700',
 		},
 		{
 			name: 'Anny',
@@ -66,7 +66,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			description:
 				"A sweet, naive girl who seems shy at first, but can be very sociable when you get close! She usually appears very extroverted 24/7, but she's actually introverted and likes personal space and peace off-screen. She's great at assisting with multiple tasks like scripting or subtitles to help TRG.",
 			image: anny,
-			color: 'text-indigo-400',
+			color: 'text-yellow-300',
 		},
 	];
 
