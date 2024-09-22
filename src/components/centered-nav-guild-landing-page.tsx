@@ -5,6 +5,7 @@ import matt from '../assets/images/cast/matt.png';
 import caleb from '../assets/images/cast/caleb.png';
 import chatherline from '../assets/images/cast/chatherline.png';
 import edward from '../assets/images/cast/edward.png';
+import anny from '../assets/images/cast/anny.png';
 
 import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
@@ -60,11 +61,11 @@ export function CenteredNavGuildLandingPageComponent() {
 			color: 'text-blue-400',
 		},
 		{
-			name: 'Azura Starborn',
-			role: 'Aasimar Paladin',
+			name: 'Anny',
+			role: 'Subs',
 			description:
-				"Blessed by the celestials, Azura's radiant power smites evil and heals allies in times of need. Her unwavering faith and inspiring presence bolster the Vanguard's resolve in the face of darkness.",
-			image: '/placeholder.svg?height=300&width=300',
+				"A sweet, naive girl who seems shy at first, but can be very sociable when you get close! She usually appears very extroverted 24/7, but she's actually introverted and likes personal space and peace off-screen. She's great at assisting with multiple tasks like scripting or subtitles to help TRG.",
+			image: anny,
 			color: 'text-indigo-400',
 		},
 	];
