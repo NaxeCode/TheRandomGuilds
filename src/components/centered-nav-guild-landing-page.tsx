@@ -1,6 +1,8 @@
 'use client';
 
 import cat from '../assets/images/cast/cat.png';
+import matt from '../assets/images/cast/matt.png';
+
 import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
 import { Facebook, Twitter, Instagram, Menu } from 'lucide-react';
@@ -23,18 +25,18 @@ export function CenteredNavGuildLandingPageComponent() {
 			color: 'text-red-400',
 		},
 		{
+			name: 'MATT',
+			role: 'Human',
+			description:
+				'Matthew is one of the founders of The Random Guild, he\'s main appearance is mostly Red wearing a sweater. He\'s known for the content Research for the Podcast/Gaming. He has great skills behind the wheel in Racing Games and has an encyclopedia about Motorsports. Sarcastic, Friendly, Charming, and known to say "Oh For God Sake". In our Videos.',
+			image: matt,
+			color: 'text-orange-400',
+		},
+		{
 			name: 'Grimlock Ironheart',
 			role: 'Dwarven Warrior',
 			description:
 				"Built like a mountain and twice as stubborn, Grimlock's axe has felled countless foes in battle. His unwavering loyalty and strength form the backbone of the Vanguard's front line, always ready to protect his comrades.",
-			image: '/placeholder.svg?height=300&width=300',
-			color: 'text-orange-400',
-		},
-		{
-			name: 'Zephyr Stormcaller',
-			role: 'Human Mage',
-			description:
-				"Master of the arcane arts, Zephyr's spells can turn the tide of any encounter in an instant. His vast knowledge of magical lore and quick thinking have helped the Vanguard overcome seemingly impossible challenges.",
 			image: '/placeholder.svg?height=300&width=300',
 			color: 'text-yellow-400',
 		},
