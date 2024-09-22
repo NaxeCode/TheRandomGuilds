@@ -16,7 +16,7 @@ export function CenteredNavGuildLandingPageComponent() {
 	const characters = [
 		{
 			name: 'Cat',
-			role: 'Elven Archer',
+			role: 'Queen',
 			description:
 				"Cat is One of the host and founders for T.R.G. She's the definition of Chaotic, Energenic, enthusiastic, and A mood swing between Cool and Childish/Playful. Her main responsibility is unknown, but she holds a heavy resposibility for Editing, Sosial Media and Visual Ideas.",
 			image: cat,
