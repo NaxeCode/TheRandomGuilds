@@ -111,8 +111,8 @@ export function CenteredNavGuildLandingPageComponent() {
 					<img
 						src={logo}
 						alt="TheRandomGuilds Logo"
-						width={100}
-						height={100}
+						width={200}
+						height={200}
 						className="mx-auto mb-4"
 					/>
 					<h1 className="text-4xl font-bold mb-4">TheRandomGuilds</h1>
