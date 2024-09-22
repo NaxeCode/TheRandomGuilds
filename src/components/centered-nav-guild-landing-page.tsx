@@ -1,5 +1,6 @@
 'use client';
 
+import cat from '../assets/images/cast/cat.png';
 import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
 import { Facebook, Twitter, Instagram, Menu } from 'lucide-react';
@@ -14,11 +15,11 @@ import {
 export function CenteredNavGuildLandingPageComponent() {
 	const characters = [
 		{
-			name: 'Elara Moonwhisper',
+			name: 'Cat',
 			role: 'Elven Archer',
 			description:
-				"A skilled archer with eyes sharp as her arrows. Elara's connection to nature makes her an invaluable scout for the Prismatic Vanguard. Her keen senses and swift movements have saved the team from ambushes more times than can be counted.",
-			image: '/placeholder.svg?height=300&width=300',
+				"Cat is One of the host and founders for T.R.G. She's the definition of Chaotic, Energenic, enthusiastic, and A mood swing between Cool and Childish/Playful. Her main responsibility is unknown, but she holds a heavy resposibility for Editing, Sosial Media and Visual Ideas.",
+			image: cat,
 			color: 'text-red-400',
 		},
 		{
