@@ -3,7 +3,6 @@ import { CenteredNavGuildLandingPageComponent } from './components/centered-nav-
 function App() {
 	return (
 		<>
-			<p>hello</p>
 			<CenteredNavGuildLandingPageComponent />
 		</>
 	);
