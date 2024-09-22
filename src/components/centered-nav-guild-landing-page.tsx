@@ -3,6 +3,8 @@
 import cat from '../assets/images/cast/cat.png';
 import matt from '../assets/images/cast/matt.png';
 import caleb from '../assets/images/cast/caleb.png';
+import chatherline from '../assets/images/cast/chatherline.png';
+import edward from '../assets/images/cast/edward.png';
 
 import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
@@ -26,7 +28,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			color: 'text-red-400',
 		},
 		{
-			name: 'MATT',
+			name: 'Matt',
 			role: 'Human',
 			description:
 				'Matthew is one of the founders of The Random Guild, he\'s main appearance is mostly Red wearing a sweater. He\'s known for the content Research for the Podcast/Gaming. He has great skills behind the wheel in Racing Games and has an encyclopedia about Motorsports. Sarcastic, Friendly, Charming, and known to say "Oh For God Sake". In our Videos.',
@@ -42,19 +44,19 @@ export function CenteredNavGuildLandingPageComponent() {
 			color: 'text-yellow-400',
 		},
 		{
-			name: 'Thorne Shadowstep',
-			role: 'Halfling Rogue',
+			name: 'Chatherline',
+			role: 'Singer',
 			description:
-				'Small in stature but big on stealth, Thorne can slip past any guard and pick any lock. His nimble fingers and sharp wit have gotten the Vanguard out of (and sometimes into) the tightest of spots.',
-			image: '/placeholder.svg?height=300&width=300',
+				"Chatherline is one of the cast for T.R.G. She's responsible for assisting research with Matthew and presenting/reposting news. She's sarcastic and usually doesn't take things seriously. She's a fun, extroverted person and always has confidence as her personality.",
+			image: chatherline,
 			color: 'text-green-400',
 		},
 		{
-			name: 'Luna Frostweaver',
-			role: 'Gnome Enchantress',
+			name: 'Edward',
+			role: 'Scripter',
 			description:
-				"A master of illusions and enchantments, Luna's spells can befuddle even the most strong-willed opponents. Her creative problem-solving and magical ingenuity provide the Vanguard with unexpected advantages in their quests.",
-			image: '/placeholder.svg?height=300&width=300',
+				"Edward is one of cast for the T.R.G. and the oldest one too. Responsible for assisting the script and keep most of each section well organized. This is why he's held parts of responsibility in the research room. He's quite formal, straight forward and calm. Yet he's kindhearted and sweet, as he prefers to show it throughout his act..",
+			image: edward,
 			color: 'text-blue-400',
 		},
 		{
