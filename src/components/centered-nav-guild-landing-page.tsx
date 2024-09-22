@@ -70,7 +70,7 @@ export function CenteredNavGuildLandingPageComponent() {
 		},
 	];
 
-	const navItems = ['Cast', 'About Us', 'FAQs', 'Studio', 'BTS'];
+	const navItems = ['Home', 'About Us', 'FAQs', 'Studio', 'BTS'];
 
 	return (
 		<div className="min-h-screen bg-gray-900 text-gray-100">
