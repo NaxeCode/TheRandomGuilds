@@ -174,7 +174,7 @@ export function CenteredNavGuildLandingPageComponent() {
 										{character.description}
 									</p>
 								</div>
-								<div className="md:w-1/3 relative aspect-square overflow-hidden rounded-full shadow-lg mt-6 md:mt-0">
+								<div className="md:w-1/3 relative aspect-square overflow-hidden  shadow-lg mt-6 md:mt-0">
 									<img
 										src={character.image}
 										alt={character.name}
