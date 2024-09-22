@@ -1,5 +1,6 @@
 'use client';
 
+import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
 import { Facebook, Twitter, Instagram, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -101,7 +102,7 @@ export function CenteredNavGuildLandingPageComponent() {
 			<main className="container mx-auto px-4 py-8">
 				<div className="text-center mb-12">
 					<img
-						src=""
+						src={logo}
 						alt="The Prismatic Vanguard Logo"
 						width={100}
 						height={100}
