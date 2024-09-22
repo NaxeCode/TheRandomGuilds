@@ -139,7 +139,7 @@ export function CenteredNavGuildLandingPageComponent() {
 					</div>
 				</div>
 				<h2 className="text-3xl font-semibold mb-12 text-center">
-					Meet Our Heroes
+					Meet Our Cast!
 				</h2>
 				<div className="space-y-24">
 					{characters.map((character, index) => (
