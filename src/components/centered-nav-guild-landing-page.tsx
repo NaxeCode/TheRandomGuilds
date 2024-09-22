@@ -2,6 +2,7 @@
 
 import cat from '../assets/images/cast/cat.png';
 import matt from '../assets/images/cast/matt.png';
+import caleb from '../assets/images/cast/caleb.png';
 
 import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
@@ -33,11 +34,11 @@ export function CenteredNavGuildLandingPageComponent() {
 			color: 'text-orange-400',
 		},
 		{
-			name: 'Grimlock Ironheart',
-			role: 'Dwarven Warrior',
+			name: 'Caleb',
+			role: 'Indo-Warrior',
 			description:
-				"Built like a mountain and twice as stubborn, Grimlock's axe has felled countless foes in battle. His unwavering loyalty and strength form the backbone of the Vanguard's front line, always ready to protect his comrades.",
-			image: '/placeholder.svg?height=300&width=300',
+				"Caleb is one of the founders of The Random guild and he is one of the host. He's a wheelchair guy, and He's a chill introverted guy. He is in charge of history and gaming and he like to research about animals and nature also history and a geek towards dinos. He is currently learning many languages and hes known by saying jurassic park quotes. And held resposibility to write subtitles and warms his bud's hearts.",
+			image: caleb,
 			color: 'text-yellow-400',
 		},
 		{
