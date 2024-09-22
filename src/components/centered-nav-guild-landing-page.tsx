@@ -103,17 +103,16 @@ export function CenteredNavGuildLandingPageComponent() {
 				<div className="text-center mb-12">
 					<img
 						src={logo}
-						alt="The Prismatic Vanguard Logo"
+						alt="TheRandomGuilds Logo"
 						width={100}
 						height={100}
 						className="mx-auto mb-4"
 					/>
-					<h1 className="text-4xl font-bold mb-4">The Prismatic Vanguard</h1>
+					<h1 className="text-4xl font-bold mb-4">TheRandomGuilds</h1>
 					<p className="max-w-2xl mx-auto mb-4">
-						We are a diverse group of adventurers, united by our quest for
-						justice and our commitment to protecting the realm. With members
-						from all walks of life and corners of the world, we bring unique
-						skills and perspectives to every challenge we face.
+						Welcome to the official T.R.G's Website/carrd! Here, we show you
+						what's the details and basics stuff within this show! In case you
+						missed it.
 					</p>
 					<div className="flex justify-center space-x-4">
 						<a
