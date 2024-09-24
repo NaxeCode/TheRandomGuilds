@@ -9,15 +9,8 @@ import anny from '../assets/images/cast/anny.png';
 
 import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
-import { Facebook, Twitter, Instagram, Menu } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { Link } from 'react-router-dom';
+import { Facebook, Twitter, Instagram } from 'lucide-react';
+import Header from './header';
 
 export function CenteredNavGuildLandingPageComponent() {
 	const characters = [
@@ -71,43 +64,9 @@ export function CenteredNavGuildLandingPageComponent() {
 		},
 	];
 
-	const navItems = ['Home', 'About Us', 'FAQs', 'Studio', 'BTS'];
-	const navLinks = ['/', '/about', '/faq', '/studio', '/bts'];
-
 	return (
 		<div className="min-h-screen bg-gray-900 text-gray-100">
-			<header className="py-4 px-4 bg-gray-800 bg-opacity-50 sticky top-0 z-10 backdrop-blur-sm">
-				<div className="container mx-auto">
-					<nav className="hidden md:flex justify-center space-x-8">
-						{navItems.map((item, index) => (
-							<Link
-								key={index}
-								to={navLinks[index]}
-								className="hover:text-gray-300 transition-colors"
-							>
-								{item}
-							</Link>
-						))}
-					</nav>
-					<DropdownMenu>
-						<DropdownMenuTrigger asChild className="md:hidden mx-auto block">
-							<Button variant="outline" size="icon">
-								<Menu className="h-[1.2rem] w-[1.2rem]" />
-								<span className="sr-only">Toggle menu</span>
-							</Button>
-						</DropdownMenuTrigger>
-						<DropdownMenuContent align="center">
-							{navItems.map((item, index) => (
-								<DropdownMenuItem key={index}>
-									<a href="#" className="w-full">
-										{item}
-									</a>
-								</DropdownMenuItem>
-							))}
-						</DropdownMenuContent>
-					</DropdownMenu>
-				</div>
-			</header>
+			<Header />
 			<main className="container mx-auto px-4 py-8">
 				<div className="text-center mb-12">
 					<img
