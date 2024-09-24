@@ -17,6 +17,7 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import { Link } from 'react-router-dom';
 
 export function CenteredNavGuildLandingPageComponent() {
 	const characters = [
@@ -71,6 +72,7 @@ export function CenteredNavGuildLandingPageComponent() {
 	];
 
 	const navItems = ['Home', 'About Us', 'FAQs', 'Studio', 'BTS'];
+	const navLinks = ['/', '/about', '/faq', '/studio', '/bts'];
 
 	return (
 		<div className="min-h-screen bg-gray-900 text-gray-100">
@@ -78,13 +80,13 @@ export function CenteredNavGuildLandingPageComponent() {
 				<div className="container mx-auto">
 					<nav className="hidden md:flex justify-center space-x-8">
 						{navItems.map((item, index) => (
-							<a
+							<Link
 								key={index}
-								href="#"
+								to={navLinks[index]}
 								className="hover:text-gray-300 transition-colors"
 							>
 								{item}
-							</a>
+							</Link>
 						))}
 					</nav>
 					<DropdownMenu>
