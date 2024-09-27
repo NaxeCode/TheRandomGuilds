@@ -5,7 +5,7 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Facebook, Twitter, Instagram, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function header() {
