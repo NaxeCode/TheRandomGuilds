@@ -75,6 +75,7 @@ export function CenteredNavGuildLandingPageComponent() {
 						width={200}
 						height={200}
 						className="mx-auto mb-4"
+						draggable="false"
 					/>
 					<h1 className="text-4xl font-bold mb-4">TheRandomGuilds</h1>
 					<p className="max-w-2xl mx-auto mb-4">
@@ -140,6 +141,7 @@ export function CenteredNavGuildLandingPageComponent() {
 										src={character.image}
 										alt={character.name}
 										className="transition-transform duration-300 hover:scale-110"
+										draggable="false"
 									/>
 								</div>
 							</CardContent>

@@ -21,6 +21,7 @@ export default function header() {
 								key={index}
 								to={navLinks[index]}
 								className="hover:text-gray-300 transition-colors"
+								draggable="false"
 							>
 								{item}
 							</Link>
