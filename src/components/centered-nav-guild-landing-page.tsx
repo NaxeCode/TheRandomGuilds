@@ -7,10 +7,9 @@ import chatherline from '../assets/images/cast/chatherline.png';
 import edward from '../assets/images/cast/edward.png';
 import anny from '../assets/images/cast/anny.png';
 
-import logo from '../assets/images/logo/logo.png';
 import { Card, CardContent } from '@/components/ui/card';
-import { Facebook, Twitter, Instagram } from 'lucide-react';
 import Header from './header';
+import { SubHeaderComponent } from './subheader';
 
 export function CenteredNavGuildLandingPageComponent() {
 	const characters = [
@@ -68,45 +67,7 @@ export function CenteredNavGuildLandingPageComponent() {
 		<div className="min-h-screen bg-gray-900 text-gray-100">
 			<Header />
 			<main className="container mx-auto px-4 py-8">
-				<div className="text-center mb-12">
-					<img
-						src={logo}
-						alt="TheRandomGuilds Logo"
-						width={200}
-						height={200}
-						className="mx-auto mb-4"
-						draggable="false"
-					/>
-					<h1 className="text-4xl font-bold mb-4">TheRandomGuilds</h1>
-					<p className="max-w-2xl mx-auto mb-4">
-						Welcome to the official T.R.G's Website/carrd! Here, we show you
-						what's the details and basics stuff within this show! In case you
-						missed it.
-					</p>
-					<div className="flex justify-center space-x-4">
-						<a
-							href="#"
-							aria-label="Facebook"
-							className="text-gray-300 hover:text-white transition-colors"
-						>
-							<Facebook size={24} />
-						</a>
-						<a
-							href="#"
-							aria-label="Twitter"
-							className="text-gray-300 hover:text-white transition-colors"
-						>
-							<Twitter size={24} />
-						</a>
-						<a
-							href="#"
-							aria-label="Instagram"
-							className="text-gray-300 hover:text-white transition-colors"
-						>
-							<Instagram size={24} />
-						</a>
-					</div>
-				</div>
+				<SubHeaderComponent />
 				<h2 className="text-3xl font-semibold mb-12 text-center">
 					Meet Our Cast!
 				</h2>

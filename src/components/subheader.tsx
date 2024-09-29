@@ -1,5 +1,12 @@
 import logo from '../assets/images/logo/logo.png';
-import { Facebook, Twitter, Instagram } from 'lucide-react';
+import {
+	IconBrandYoutube,
+	IconBrandInstagram,
+	IconBrandSpotify,
+	IconBrandTwitter,
+	IconBrandDiscord,
+	IconMail,
+} from '@tabler/icons-react';
 
 export function SubHeaderComponent() {
 	return (
@@ -19,24 +26,45 @@ export function SubHeaderComponent() {
 			<div className="flex justify-center space-x-4">
 				<a
 					href="#"
-					aria-label="Facebook"
+					aria-label="Youtube"
 					className="text-gray-300 hover:text-white transition-colors"
 				>
-					<Facebook size={24} />
-				</a>
-				<a
-					href="#"
-					aria-label="Twitter"
-					className="text-gray-300 hover:text-white transition-colors"
-				>
-					<Twitter size={24} />
+					<IconBrandYoutube className="fill-red-500" size={24} />
 				</a>
 				<a
 					href="#"
 					aria-label="Instagram"
 					className="text-gray-300 hover:text-white transition-colors"
 				>
-					<Instagram size={24} />
+					<IconBrandInstagram className="fill-yellow-500" size={24} />
+				</a>
+				<a
+					href="#"
+					aria-label="Spotify"
+					className="text-gray-300 hover:text-white transition-colors"
+				>
+					<IconBrandSpotify className="fill-green-500" size={24} />
+				</a>
+				<a
+					href="#"
+					aria-label="Twitter"
+					className="text-gray-300 hover:text-white transition-colors"
+				>
+					<IconBrandTwitter className="fill-cyan-500" size={24} />
+				</a>
+				<a
+					href="#"
+					aria-label="Discord"
+					className="text-gray-300 hover:text-white transition-colors"
+				>
+					<IconBrandDiscord className="fill-blue-800" size={24} />
+				</a>
+				<a
+					href="#"
+					aria-label="Mail"
+					className="text-gray-300 hover:text-white transition-colors"
+				>
+					<IconMail className="fill-purple-600" size={24} />
 				</a>
 			</div>
 		</div>
