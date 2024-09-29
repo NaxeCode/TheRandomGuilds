@@ -28,16 +28,20 @@ export default function header() {
 						))}
 					</nav>
 					<DropdownMenu>
-						<DropdownMenuTrigger asChild className="md:hidden mx-auto block">
-							<Button variant="outline" size="icon">
-								<IconMenu2 className="h-[1.2rem] w-[1.2rem]" />
+						<DropdownMenuTrigger asChild className="md:hidden block mx-auto">
+							<Button
+								variant="ghost"
+								size="icon"
+								className="flex items-center justify-center"
+							>
+								<IconMenu2 className="w-5 h-5" />
 								<span className="sr-only">Toggle menu</span>
 							</Button>
 						</DropdownMenuTrigger>
 						<DropdownMenuContent align="center">
 							{navItems.map((item, index) => (
 								<DropdownMenuItem key={index}>
-									<a href="#" className="w-full">
+									<a href={navLinks[index]} className="w-full">
 										{item}
 									</a>
 								</DropdownMenuItem>
