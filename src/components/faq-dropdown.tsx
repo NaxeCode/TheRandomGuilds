@@ -48,7 +48,6 @@ export function FaqDropdown() {
 					>
 						<AccordionTrigger className="text-left text-lg font-semibold px-6 py-4 bg-gray-700 bg-opacity-50 hover:bg-opacity-70 transition-all text-gray-100">
 							{faq.question}
-							<ChevronDown className="h-5 w-5 text-gray-400 transition-transform duration-200" />
 						</AccordionTrigger>
 						<AccordionContent className="px-6 py-4 text-base text-gray-100">
 							{faq.answer}
