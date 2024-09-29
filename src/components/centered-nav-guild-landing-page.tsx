@@ -114,7 +114,7 @@ export function CenteredNavGuildLandingPageComponent() {
 					{characters.map((character, index) => (
 						<Card
 							key={index}
-							className="overflow-hidden bg-transparent border-none shadow-none"
+							className="bg-transparent border-none shadow-none"
 						>
 							<CardContent
 								className={`p-0 flex flex-col ${
@@ -136,7 +136,7 @@ export function CenteredNavGuildLandingPageComponent() {
 										{character.description}
 									</p>
 								</div>
-								<div className="md:w-1/3 relative aspect-square overflow-hidden  shadow-lg mt-6 md:mt-0">
+								<div className="md:w-1/3 relative aspect-square shadow-lg mt-6 md:mt-0">
 									<img
 										src={character.image}
 										alt={character.name}
