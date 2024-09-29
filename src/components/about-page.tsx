@@ -1,47 +1,14 @@
 'use client';
 
-import logo from '../assets/images/logo/logo.png';
-import { Facebook, Twitter, Instagram } from 'lucide-react';
+import { SubHeaderComponent } from './subheader';
 import { Card, CardContent } from '@/components/ui/card';
 
 export function AboutPageComponent() {
 	return (
 		<div className="min-h-screen bg-gray-900 text-gray-100">
 			<main className="container mx-auto px-4 py-8">
-				<div className="text-center mb-12">
-					<img
-						src={logo}
-						alt="TheRandomGuilds Logo"
-						width={200}
-						height={200}
-						className="mx-auto mb-4"
-					/>
-					<h1 className="text-4xl font-bold mb-4">About Us.</h1>
-					<div className="flex justify-center space-x-4">
-						<a
-							href="#"
-							aria-label="Facebook"
-							className="text-gray-300 hover:text-white transition-colors"
-						>
-							<Facebook size={24} />
-						</a>
-						<a
-							href="#"
-							aria-label="Twitter"
-							className="text-gray-300 hover:text-white transition-colors"
-						>
-							<Twitter size={24} />
-						</a>
-						<a
-							href="#"
-							aria-label="Instagram"
-							className="text-gray-300 hover:text-white transition-colors"
-						>
-							<Instagram size={24} />
-						</a>
-					</div>
-				</div>
-
+				<SubHeaderComponent />
+				<h2 className="text-3xl font-semibold mb-12 text-center">About Us.</h2>
 				<Card className="bg-gray-800 text-gray-100 bg-opacity-50 backdrop-blur-sm">
 					<CardContent className="p-6">
 						<p className="mb-4">
