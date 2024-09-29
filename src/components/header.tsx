@@ -5,7 +5,7 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Menu } from 'lucide-react';
+import { IconMenu2 } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
 export default function header() {
@@ -30,7 +30,7 @@ export default function header() {
 					<DropdownMenu>
 						<DropdownMenuTrigger asChild className="md:hidden mx-auto block">
 							<Button variant="outline" size="icon">
-								<Menu className="h-[1.2rem] w-[1.2rem]" />
+								<IconMenu2 className="h-[1.2rem] w-[1.2rem]" />
 								<span className="sr-only">Toggle menu</span>
 							</Button>
 						</DropdownMenuTrigger>
