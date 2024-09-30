@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Cascadia Code';
+	src: url('../assets/fonts/CascadiaCode.woff2') format('woff2');
+	font-style: normal;
+}
+
+body {
+	font-family: 'Cascadia Code', 'Arial', sans-serif;
+	font-weight: 200; /* Apply light weight */
+}
