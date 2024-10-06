@@ -20,7 +20,7 @@ export function SubHeaderComponent() {
 			/>
 			<h1 className="text-4xl font-bold mb-4">TheRandomGuilds</h1>
 			<p className="max-w-2xl mx-auto mb-4">
-				Welcome to the official T.R.G's Website/carrd! Here, we show you what's
+				Welcome to the official T.R.G's Website! Here, we show you what's
 				the details and basics stuff within this show! In case you missed it.
 			</p>
 			<div className="flex justify-center space-x-4">
